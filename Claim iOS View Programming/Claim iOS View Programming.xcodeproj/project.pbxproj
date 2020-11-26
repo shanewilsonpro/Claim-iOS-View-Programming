@@ -13,6 +13,8 @@
 		A533C8C7256F53CC000D7902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A533C8C5256F53CC000D7902 /* Main.storyboard */; };
 		A533C8C9256F53CE000D7902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A533C8C8256F53CE000D7902 /* Assets.xcassets */; };
 		A533C8CC256F53CE000D7902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A533C8CA256F53CE000D7902 /* LaunchScreen.storyboard */; };
+		A533C8D5256F549E000D7902 /* ClaimService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A533C8D4256F549E000D7902 /* ClaimService.swift */; };
+		A533C8D8256F5525000D7902 /* ViewClaimGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A533C8D7256F5525000D7902 /* ViewClaimGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A533C8C8256F53CE000D7902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A533C8CB256F53CE000D7902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A533C8CD256F53CE000D7902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A533C8D4256F549E000D7902 /* ClaimService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimService.swift; sourceTree = "<group>"; };
+		A533C8D7256F5525000D7902 /* ViewClaimGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewClaimGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A533C8C8256F53CE000D7902 /* Assets.xcassets */,
 				A533C8CA256F53CE000D7902 /* LaunchScreen.storyboard */,
 				A533C8CD256F53CE000D7902 /* Info.plist */,
+				A533C8D4256F549E000D7902 /* ClaimService.swift */,
+				A533C8D7256F5525000D7902 /* ViewClaimGenerator.swift */,
 			);
 			path = "Claim iOS View Programming";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A533C8D8256F5525000D7902 /* ViewClaimGenerator.swift in Sources */,
+				A533C8D5256F549E000D7902 /* ClaimService.swift in Sources */,
 				A533C8C4256F53CC000D7902 /* ViewController.swift in Sources */,
 				A533C8C0256F53CC000D7902 /* AppDelegate.swift in Sources */,
 				A533C8C2256F53CC000D7902 /* SceneDelegate.swift in Sources */,
